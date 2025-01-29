@@ -29,8 +29,9 @@
     <Color x:Key="Gray950">#141414</Color>-->
 
     <Color x:Key="PrimaryColor">#EFBB31</Color>
-    <Color x:Key="PrimaryDark">#ac99ea</Color>
-    <Color x:Key="PrimaryDarkText">#242424</Color>
+    <Color x:Key="SecondaryColor">#FFF</Color>
+    <Color x:Key="PageBackgroundColor">#16191E</Color>
+    <Color x:Key="BorderColor">#337777</Color>
 
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}"/>
