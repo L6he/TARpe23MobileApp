@@ -10,8 +10,8 @@ namespace SciCalc
 {
     public partial class App : Application
     {
-        const int WindowWidth = 3500;
-        const int WindowHeight = 1500;
+        const int WindowWidth = 450;
+        const int WindowHeight = 875;
         public App()
         {
             InitializeComponent();
