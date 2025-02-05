@@ -318,5 +318,51 @@
             Text="÷"
             Command="{Binding MathOperatorCommand}"
             CommandParameter="÷"/>
+
+        <!--Row 7-->
+        <Button Grid.Row="8"
+    Grid.Column="0"
+    ZIndex="1"
+    Margin="6,10,6,4"
+    Style="{StaticResource NumberButtonStyle}"
+    Text="1"
+    Command="{Binding NumberInputCommand}"
+    CommandParameter="1"/>
+
+        <Button Grid.Row="8"
+    Grid.Column="1"
+    ZIndex="1"
+    Margin="6,10,6,4"
+    Style="{StaticResource NumberButtonStyle}"
+    Text="2"
+    Command="{Binding NumberInputCommand}"
+    CommandParameter="2"/>
+
+        <Button Grid.Row="8"
+    Grid.Column="2"
+    ZIndex="1"
+    Margin="6,10,6,4"
+    Style="{StaticResource NumberButtonStyle}"
+    Text="3"
+    Command="{Binding NumberInputCommand}"
+    CommandParameter="3"/>
+
+        <Button Grid.Row="8"
+    Grid.Column="3"
+    ZIndex="1"
+    Margin="6,10,6,4"
+    Style="{StaticResource OperatorButtonStyle}"
+    Text="+"
+    Command="{Binding MathOperatorCommand}"
+    CommandParameter="+"/>
+
+        <Button Grid.Row="7"
+    Grid.Column="4"
+    ZIndex="1"
+    Margin="6,10,6,4"
+    Style="{StaticResource OperatorButtonStyle}"
+    Text="÷"
+    Command="{Binding MathOperatorCommand}"
+    CommandParameter="÷"/>
     </Grid>
 </ContentPage>
