@@ -13,5 +13,15 @@
 
     <Grid>
         <!--Planets image-->
+        <Image 
+            x:Name="imgEarth"
+            Opacity="0"
+            Source="earth.png"
+            VerticalOptions="Start"
+            HorizontalOptions="Center"
+            TranslationX="-48"
+            TranslationY="148"
+            WidthRequest="96"
+            HeightRequest="96"/>
     </Grid>
 </ContentPage>
