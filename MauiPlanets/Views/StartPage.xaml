@@ -36,17 +36,6 @@
             HeightRequest="200"/>
 
         <Image 
-            x:Name="imgJupiter"
-            Opacity="0"
-            Source="jupiter.png"
-            VerticalOptions="Center"
-            HorizontalOptions="Start"
-            TranslationX="-100"
-            TranslationY="-64"
-            WidthRequest="200"
-            HeightRequest="200"/>
-
-        <Image 
             x:Name="imgSaturn"
             Opacity="0"
             Source="saturn.png"
