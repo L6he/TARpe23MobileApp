@@ -1,3 +1,5 @@
+using Services;
+
 namespace Views;
 
 public partial class PlanetsPage : ContentPage
@@ -13,6 +15,7 @@ public partial class PlanetsPage : ContentPage
     {
         base.OnAppearing();
 
-
+		lstPopularPlanets.ItemsSource = PlanetsService.GetFeaturedPlanets();
+		lstAllPlanets.ItemsSource = PlanetsService.GetAllPlanets();
     }
 }
