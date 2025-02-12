@@ -188,7 +188,22 @@
 
                     <CollectionView
                         x:Name="lstPopularPlanets"
-                        HeightRequest="280">
+                        HeightRequest="280"
+                        SelectionMode="Single"
+                        SelectionChanged="Planets_SelectionChanged">
+
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout
+                                Orientation="Horizontal"
+                                ItemSpacing="16"/>
+                        </CollectionView.ItemsLayout>
+
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate
+                                x:DataType="models:Planet">
+                                
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
                         
                     </CollectionView>
                     
