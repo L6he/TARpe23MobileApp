@@ -245,6 +245,8 @@
                         
                     </CollectionView>
                     
+                    <!--More Collection-->
+                    
                 </VerticalStackLayout>
                 
             </ScrollView>
