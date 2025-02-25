@@ -5,7 +5,7 @@ namespace Data
 {
     public class DatabaseContext
     {
-        private const string DbName = "CRUDdb3";
+        private const string DbName = "CRUDdb4";
         private static string DbPath => Path.Combine(".", DbName);
 
         private SQLiteAsyncConnection _connection;
@@ -53,10 +53,10 @@ namespace Data
             return await Database.UpdateAsync(item) > 0;
         }
 
-        public async Task<bool> DeleteItemAsync<TTable>(TTable item) where TTable : class, new()
+        public async Task<bool> DeleteItemAsync<TTable>(object primaryKey) where TTable : class, new()
         {
             await CreateTableIfNotExists<TTable>();
-            return await Database.DeleteAsync(item) > 0;
+            return await Database.DeleteAsync<TTable>(primaryKey) > 0;
         }
 
         public async Task<bool> DeleteItemByKeyAsync<TTable>(object primaryKey) where TTable : class, new()

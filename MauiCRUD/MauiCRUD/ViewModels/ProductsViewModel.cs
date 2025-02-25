@@ -54,6 +54,7 @@ namespace ViewModels
             }
             catch (Exception)
             {
+
                 throw;
             }
             finally
@@ -84,7 +85,7 @@ namespace ViewModels
             var busyText = OperatingProduct.Id == 0 ? "Creating product..." : "Updating product...";
             await ExecuteAsync(async () =>
             {
-                if (OperatingProduct.Id == null)
+                if (OperatingProduct.Id == 0)
                 {
                     await _context.AddItemAsync<Product>(OperatingProduct);
                     Products.Add(OperatingProduct);
