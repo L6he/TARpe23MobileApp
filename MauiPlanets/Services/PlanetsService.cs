@@ -128,6 +128,21 @@ namespace Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
                 }
             },
+            new()
+            {
+                Name = "Pluto",
+                Subtitle = "The 'ninth' planet",
+                HeroImage = "pluto.png",
+                Description = "Pluto is a dwarf planet located in a distant region of our solar system beyond Neptune known as the Kuiper Belt. Pluto was long considered our ninth planet, but the International Astronomical Union reclassified Pluto as a dwarf planet in 2006. NASA's New Horizons was the first spacecraft to explore Pluto up close, flying by in 2015.",
+                AccentColorStart = Color.FromArgb("#FFD9B8"),
+                AccentColorEnd = Color.FromArgb("#362010"),
+                Images = new()
+                {
+                    "https://science.nasa.gov/wp-content/uploads/2023/06/color-image-of-pluto-pia20291-1.jpg",
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/l/pluto_lorri_ralph_20150713_2017.jpg?w=800&h=800&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/l/pluto_natural_color_20150714_detail.jpg?w=1200&h=1200&fit=clip&crop=faces%2Cfocalpoint"
+                }
+            },
         };
 
         public static List<Planet> GetFeaturedPlanets()

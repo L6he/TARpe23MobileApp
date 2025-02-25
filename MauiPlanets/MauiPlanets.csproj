@@ -69,6 +69,7 @@
 	  <None Remove="Resources\Images\mars.svg" />
 	  <None Remove="Resources\Images\mercury.svg" />
 	  <None Remove="Resources\Images\neptune.svg" />
+	  <None Remove="Resources\Images\pluto.png" />
 	  <None Remove="Resources\Images\saturn.svg" />
 	  <None Remove="Resources\Images\uranus.svg" />
 	  <None Remove="Resources\Images\venus.svg" />
