@@ -143,6 +143,21 @@ namespace Services
                     "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/l/pluto_natural_color_20150714_detail.jpg?w=1200&h=1200&fit=clip&crop=faces%2Cfocalpoint"
                 }
             },
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "The ",
+                HeroImage = "ceres.png",
+                Description = "",
+                AccentColorStart = Color.FromArgb("#B3AEAB"),
+                AccentColorEnd = Color.FromArgb("#6E6A67"),
+                Images = new()
+                {
+                    "https://science.nasa.gov/wp-content/uploads/2023/06/color-image-of-pluto-pia20291-1.jpg",
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/l/pluto_lorri_ralph_20150713_2017.jpg?w=800&h=800&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/l/pluto_natural_color_20150714_detail.jpg?w=1200&h=1200&fit=clip&crop=faces%2Cfocalpoint"
+                }
+            },
         };
 
         public static List<Planet> GetFeaturedPlanets()
