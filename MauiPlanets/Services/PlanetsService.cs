@@ -134,8 +134,8 @@ namespace Services
                 Subtitle = "The 'ninth' planet",
                 HeroImage = "pluto.png",
                 Description = "Pluto is a dwarf planet located in a distant region of our solar system beyond Neptune known as the Kuiper Belt. Pluto was long considered our ninth planet, but the International Astronomical Union reclassified Pluto as a dwarf planet in 2006. NASA's New Horizons was the first spacecraft to explore Pluto up close, flying by in 2015.",
-                AccentColorStart = Color.FromArgb("#FFD9B8"),
-                AccentColorEnd = Color.FromArgb("#362010"),
+                AccentColorStart = Color.FromArgb("#362010"),
+                AccentColorEnd = Color.FromArgb("#FFD9B8"),
                 Images = new()
                 {
                     "https://science.nasa.gov/wp-content/uploads/2023/06/color-image-of-pluto-pia20291-1.jpg",
@@ -146,18 +146,61 @@ namespace Services
             new()
             {
                 Name = "Ceres",
-                Subtitle = "The only dwarf planet in the inner solar system",
+                Subtitle = "The 'asteroid'",
                 HeroImage = "ceres.png",
-                Description = "Ceres was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. When NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft. ",
-                AccentColorStart = Color.FromArgb("#B3AEAB"),
-                AccentColorEnd = Color.FromArgb("#6E6A67"),
+                Description = "Ceres was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. When NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft.",
+                AccentColorStart = Color.FromArgb("#6E6A67"),
+                AccentColorEnd = Color.FromArgb("#B3AEAB"),
                 Images = new()
                 {
-                    "https://science.nasa.gov/wp-content/uploads/2023/06/color-image-of-pluto-pia20291-1.jpg",
-                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/l/pluto_lorri_ralph_20150713_2017.jpg?w=800&h=800&fit=clip&crop=faces%2Cfocalpoint",
-                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/l/pluto_natural_color_20150714_detail.jpg?w=1200&h=1200&fit=clip&crop=faces%2Cfocalpoint"
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/astro/exo-explore/internal_resources/598/Ceres.jpeg?w=1041&h=1041&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/3227/dawn_banner.jpeg?w=1600&h=500&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/p/i/a/2/PIA21405.jpg?w=690&h=566&fit=clip&crop=faces%2Cfocalpoint"
                 }
             },
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "'Santa'",
+                HeroImage = "haumea.png",
+                Description = "Dwarf planet Haumea was originally designated 2003 EL61 (and nicknamed Santa by one discovery team). Haumea is located in the Kuiper Belt, a doughnut-shaped region of icy bodies beyond the orbit of Neptune.",
+                AccentColorStart = Color.FromArgb("#3F3C38"),
+                AccentColorEnd = Color.FromArgb("#726F6B"),
+                Images = new()
+                {
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/h/haumea_th.jpg?w=320&h=240&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://science.nasa.gov/wp-content/uploads/2023/07/haumea-480x320-1-jpg.webp?resize=150,150"
+                }
+            },
+            new()
+            {
+                Name = "Makemake",
+                Subtitle = "'Easterbunny'",
+                HeroImage = "makemake.png",
+                Description = "Dwarf planet Makemake – along with Pluto, Haumea, and Eris – is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. Makemake is slightly smaller than Pluto, and is the second-brightest object in the Kuiper Belt as seen from Earth while Pluto is the brightest. It takes about 305 Earth years for this dwarf planet to make one trip around the Sun.",
+                AccentColorStart = Color.FromArgb("#593828"),
+                AccentColorEnd = Color.FromArgb("#8F6B5D"),
+                Images = new()
+                {
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/m/makemake_th.jpg?w=320&h=240&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://science.nasa.gov/wp-content/uploads/2023/04/makemakemoon100mile-jpg.webp?w=1024"
+                }
+            },
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "'Xena'",
+                HeroImage = "eris.png",
+                Description = "The discovery of Eris help trigger a debate in the scientific community that led to the International Astronomical Union's decision in 2006 to clarify the definition of a planet. Pluto, Eris, and other similar objects are now classified as dwarf planets. Eris was discovered on Jan. 5, 2005, from data obtained on Oct. 21, 2003, during a Palomar Observatory survey of the outer solar system by Mike Brown, a professor of planetary astronomy at the California Institute of Technology; Chad Trujillo of the Gemini Observatory; and David Rabinowitz of Yale University.",
+                AccentColorStart = Color.FromArgb("#6E5F52"),
+                AccentColorEnd = Color.FromArgb("#B3A497"),
+                Images = new()
+                {
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/2/245_PIA17307.jpg?w=3000&h=2400&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/internal_resources/3256/Artists_c_oncept_of_Eris_and_Dysnomia_far_from_the_Sun.jpeg?w=800&h=600&fit=clip&crop=faces%2Cfocalpoint",
+                    "https://solarsystem.nasa.gov/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaU1SIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b496d9ee570664fc2402ed5a67bf5683013bd565/poster_eris.jpg"
+                }
+            }
         };
 
         public static List<Planet> GetFeaturedPlanets()
